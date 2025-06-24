@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<!-- meta -->
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- styles -->
+		<link rel="stylesheet" href="./styles/global.css" />
+		<link rel="stylesheet" href="./styles/components.css" />
+		<link rel="stylesheet" href="./styles/header.css" />
+		<link rel="stylesheet" href="./styles/page.css" />
+		<link rel="stylesheet" href="./styles/footer.css" />
+
+		<!-- font-family -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<title>Truck Repairs</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__wrapper">
+				<a href="#">
+					<img
+						class="header__logo"
+						src="./images/logo.svg"
+						alt="Логотип компании"
+					/>
+				</a>
+				<nav class="header__nav">
+					<ul class="list">
+						<li><a class="list__link" href="#">Услуги</a></li>
+						<li><a class="list__link" href="#">Преимущества</a></li>
+						<li><a class="list__link" href="#">Отзывы</a></li>
+						<li><a class="list__link" href="#">Контакты</a></li>
+					</ul>
+				</nav>
+				<div class="header__controls">
+					<button class="button button_contact">Заказать звонок</button>
+					<div class="nav-icons">
+						<button class="nav-icons__search">
+							<img src="./images/search-magnifying.svg" alt="Поиск" />
+						</button>
+						<a class="nav-icons__cart" href="#">
+							<img src="./images/shopping-cart.svg" alt="Корзина" />
+						</a>
+					</div>
+					<a class="profile" href="#">
+						<img src="./images/user.svg" alt="Логотип пользователя" />
+					</a>
+				</div>
+				<button class="header__hamburger">
+					<img src="./images/hamburger.svg" alt="Мобильное меню" />
+				</button>
+			</div>
+		</header>
+		<section class="section section_cover section_img-trucks">
+			<div class="section__wrapper section__wrapper_main">
+				<h1 class="section__h1">
+					Профессиональный ремонт грузовых авто в Екатеринбурге
+				</h1>
+				<p class="section__paragraph">
+					Сертифицированные специалисты, приём в день обращения
+				</p>
+				<div class="section__buttons">
+					<button class="button button_active">Записаться на ремонт</button>
+					<button class="button button_ghost">Бесплатная диагностика</button>
+				</div>
+			</div>
+			<div class="cover-filter"></div>
+		</section>
+		<section class="section">
+			<div class="section__wrapper section__product-info">
+				<div class="section__explanation">
+					<h2 class="section__h2">Нам доверяют профи</h2>
+					<div class="section__description">
+						Ежедневно ремонтируем до 5 грузовиков, среди наших клиентов -
+						крупные логистические компании и частные владельцы
+					</div>
+				</div>
+				<hr class="hr" />
+				<ul class="section__list">
+					<li class="list-el">До 5 грузовиков ремонтируем ежедневно</li>
+					<li class="list-el">100% гарантия на все работы</li>
+					<li class="list-el">Экономия до 20% на ремонте</li>
+					<li class="list-el">Сертифицированный персонал</li>
+					<li class="list-el">Ремонт в день обращения</li>
+					<li class="list-el">Поиск и подбор запчастей</li>
+				</ul>
+			</div>
+		</section>
+		<section class="section_light">
+			<div class="section__wrapper">
+				<div class="section__title">
+					<span class="section__title_blue">Полный спектр услуг</span>
+					для вашего грузовика
+				</div>
+				<div class="services-wrapper">
+					<div class="service-card">
+						<div class="service-card__text">Text</div>
+						<button class="button service-card__button">Click Me</button>
+					</div>
+					<div class="service-card">
+						<div class="service-card__text">Text</div>
+						<button class="button service-card__button">Click Me</button>
+					</div>
+					<div class="service-card">
+						<div class="service-card__text">Text</div>
+						<button class="button service-card__button">Click Me</button>
+					</div>
+					<div class="service-card">
+						<div class="service-card__text">Text</div>
+						<button class="button service-card__button">Click Me</button>
+					</div>
+					<div class="service-card">
+						<div class="service-card__text">Text</div>
+						<button class="button service-card__button">Click Me</button>
+					</div>
+					<div class="service-card">
+						<div class="service-card__text">Text</div>
+						<button class="button service-card__button">Click Me</button>
+					</div>
+					<div class="service-card">
+						<div class="service-card__text">Text</div>
+						<button class="button service-card__button">Click Me</button>
+					</div>
+					<div class="service-card">
+						<div class="service-card__text">Text</div>
+						<button class="button service-card__button">Click Me</button>
+					</div>
+				</div>
+				<div class="section__btn-wrapper">
+					<button class="button button_ghost other-btn">
+						Узнать стоимость
+					</button>
+				</div>
+			</div>
+		</section>
+		<section class="section">
+			<div class="section__wrapper">
+				<div class="section__title">
+					<span class="section__title_blue">6 причин</span>
+					доверить свой грузовик нам
+				</div>
+				<div class="rft_wrapper">
+					<div class="rft-card">
+						<div class="rft-card__title">Text Title</div>
+						<p class="rft-card__paragraph">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, nihil
+							beatae distinctio error est, at officia, nulla dolorem architecto
+							doloribus doloremque perferendis ullam quisquam corrupti? Quod
+							veritatis recusandae harum amet?
+						</p>
+					</div>
+					<div class="rft-card">
+						<div class="rft-card__title">Text Title</div>
+						<p class="rft-card__paragraph">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, nihil
+							beatae distinctio error est, at officia, nulla dolorem architecto
+							doloribus doloremque perferendis ullam quisquam corrupti? Quod
+							veritatis recusandae harum amet?
+						</p>
+					</div>
+					<div class="rft-card">
+						<div class="rft-card__title">Text Title</div>
+						<p class="rft-card__paragraph">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, nihil
+							beatae distinctio error est, at officia, nulla dolorem architecto
+							doloribus doloremque perferendis ullam quisquam corrupti? Quod
+							veritatis recusandae harum amet?
+						</p>
+					</div>
+					<div class="rft-card">
+						<div class="rft-card__title">Text Title</div>
+						<p class="rft-card__paragraph">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, nihil
+							beatae distinctio error est, at officia, nulla dolorem architecto
+							doloribus doloremque perferendis ullam quisquam corrupti? Quod
+							veritatis recusandae harum amet?
+						</p>
+					</div>
+					<div class="rft-card">
+						<div class="rft-card__title">Text Title</div>
+						<p class="rft-card__paragraph">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, nihil
+							beatae distinctio error est, at officia, nulla dolorem architecto
+							doloribus doloremque perferendis ullam quisquam corrupti? Quod
+							veritatis recusandae harum amet?
+						</p>
+					</div>
+					<div class="rft-card">
+						<div class="rft-card__title">Text Title</div>
+						<p class="rft-card__paragraph">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, nihil
+							beatae distinctio error est, at officia, nulla dolorem architecto
+							doloribus doloremque perferendis ullam quisquam corrupti? Quod
+							veritatis recusandae harum amet?
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section_light">
+			<div class="section__wrapper">
+				<div class="section__title">
+					<span class="section__title_blue">Современное оборудование</span>
+					для точной диагностики и ремонта
+				</div>
+				<div class="equipment-wrapper">
+					<div class="equipment-card">
+						<div class="equipment-card__cover">
+							<img src="./images/equipment.png" alt="Домкрат" />
+						</div>
+						<div class="equipment-card__content">
+							<div class="content-title">Title Text</div>
+							<div class="content-description">
+								Мощный подкатной домкрат грузоподъемностью до 40 тонн для
+								безопасного подъема вашего грузовика.
+							</div>
+							<button class="button button_active content-btn">
+								Подробнее
+							</button>
+						</div>
+					</div>
+					<div class="equipment-card">
+						<div class="equipment-card__cover">
+							<img src="./images/equipment.png" alt="Домкрат" />
+						</div>
+						<div class="equipment-card__content">
+							<div class="content-title">Title Text</div>
+							<div class="content-description">
+								Мощный подкатной домкрат грузоподъемностью до 40 тонн для
+								безопасного подъема вашего грузовика.
+							</div>
+							<button class="button button_active content-btn">
+								Подробнее
+							</button>
+						</div>
+					</div>
+					<div class="equipment-card">
+						<div class="equipment-card__cover">
+							<img src="./images/equipment.png" alt="Домкрат" />
+						</div>
+						<div class="equipment-card__content">
+							<div class="content-title">Title Text</div>
+							<div class="content-description">
+								Мощный подкатной домкрат грузоподъемностью до 40 тонн для
+								безопасного подъема вашего грузовика.
+							</div>
+							<button class="button button_active content-btn">
+								Подробнее
+							</button>
+						</div>
+					</div>
+					<div class="equipment-card">
+						<div class="equipment-card__cover">
+							<img src="./images/equipment.png" alt="Домкрат" />
+						</div>
+						<div class="equipment-card__content">
+							<div class="content-title">Title Text</div>
+							<div class="content-description">
+								Мощный подкатной домкрат грузоподъемностью до 40 тонн для
+								безопасного подъема вашего грузовика.
+							</div>
+							<button class="button button_active content-btn">
+								Подробнее
+							</button>
+						</div>
+					</div>
+					<div class="equipment-card">
+						<div class="equipment-card__cover">
+							<img src="./images/equipment.png" alt="Домкрат" />
+						</div>
+						<div class="equipment-card__content">
+							<div class="content-title">Title Text</div>
+							<div class="content-description">
+								Мощный подкатной домкрат грузоподъемностью до 40 тонн для
+								безопасного подъема вашего грузовика.
+							</div>
+							<button class="button button_active content-btn">
+								Подробнее
+							</button>
+						</div>
+					</div>
+					<div class="equipment-card">
+						<div class="equipment-card__cover">
+							<img src="./images/equipment.png" alt="Домкрат" />
+						</div>
+						<div class="equipment-card__content">
+							<div class="content-title">Title Text</div>
+							<div class="content-description">
+								Мощный подкатной домкрат грузоподъемностью до 40 тонн для
+								безопасного подъема вашего грузовика.
+							</div>
+							<button class="button button_active content-btn">
+								Подробнее
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section section_cover section_img-service-trucks">
+			<div class="section__form-wrapper">
+				<form class="form" action="#">
+					<div class="form-wrapper">
+						<div class="form__title">Запишитесь на диагностику</div>
+						<input class="input" type="text" placeholder="Введите имя" />
+						<input
+							class="input"
+							type="tel"
+							placeholder="Введите номер телефона"
+						/>
+						<div class="form__select-truck">
+							<label class="form__truck-model-title" for="truck"
+								>Модель грузовика</label
+							>
+							<div class="select-wrapper">
+								<select name="truck" id="truck">
+									<option value="КамАЗ">КамАЗ</option>
+									<option value="ГАЗ">ГАЗ</option>
+									<option value="МАЗ">МАЗ</option>
+								</select>
+							</div>
+						</div>
+						<button class="button button_active form__btn">
+							Записаться на диагностику
+						</button>
+						<div class="form__confidentiality">
+							Заполняя и отправляя форму, вы соглашаетесь с
+							<a class="form__confidentiality_link" href="#"
+								>политикой конфиденциальности</a
+							>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="cover-filter"></div>
+		</section>
+		<section class="section">
+			<div class="section__wrapper">
+				<div class="section__questions-title">Ответы на ваши вопросы</div>
+				<div class="section__questions">
+					<div class="question">
+						<div class="question__text">Вопрос</div>
+						<button class="question__button">
+							<img src="./images/add.svg" alt="" />
+						</button>
+					</div>
+					<div class="question">
+						<div class="question__text">Вопрос</div>
+						<button class="question__button">
+							<img src="./images/add.svg" alt="" />
+						</button>
+					</div>
+					<div class="question">
+						<div class="question__text">Вопрос</div>
+						<button class="question__button">
+							<img src="./images/add.svg" alt="" />
+						</button>
+					</div>
+					<div class="question">
+						<div class="question__text">Вопрос</div>
+						<button class="question__button">
+							<img src="./images/add.svg" alt="" />
+						</button>
+					</div>
+					<div class="question">
+						<div class="question__text">Вопрос</div>
+						<button class="question__button">
+							<img src="./images/add.svg" alt="" />
+						</button>
+					</div>
+				</div>
+				<div class="section__btn-wrapper">
+					<button class="button button_ghost other-btn">
+						Есть другой вопрос? Спросите нас!
+					</button>
+				</div>
+				<div class="section__call-service">
+					Звоните: <a href="#">+7 999 999-99-99</a>
+					<br />
+					<a href="#">service-mail@gmail.com</a>
+				</div>
+				<div class="section__service-geo">
+					<div class="service-address">
+						г. Екатеринбург, ул. Проезжая, 9а лит Ф
+					</div>
+					<div class="service-operating-mode">Ежедневно: 09:00–21:00</div>
+				</div>
+			</div>
+		</section>
+		<iframe
+			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d770.9572952876937!2d60.677741281611645!3d56.87001426851629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43c16daf1c60e1d9%3A0xfd358ebc07d3d8f9!2z0YPQuy4g0J_RgNC-0LXQt9C20LDRjywgOdCwLCDQldC60LDRgtC10YDQuNC90LHRg9GA0LMsINCh0LLQtdGA0LTQu9C-0LLRgdC60LDRjyDQvtCx0LsuLCA2MjAwMTc!5e0!3m2!1sru!2sru!4v1740329007016!5m2!1sru!2sru"
+			width="100%"
+			height="385"
+			style="border: 0"
+			allowfullscreen=""
+			loading="lazy"
+			referrerpolicy="no-referrer-when-downgrade"
+		></iframe>
+		<footer class="footer">
+			<div class="footer__wrapper">
+				<a class="footer__logo" href="#"
+					><img src="./images/logo.svg" alt="Логотип"
+				/></a>
+				<hr class="f-hr" />
+				<div class="f-list-wrapper">
+					<div class="footer__list">
+						<div class="f-list-title">Услуги автосервиса</div>
+						<ul class="f-list">
+							<li class="f-list__item"><a href="">Услуги</a></li>
+							<li class="f-list__item"><a href="">Оборудование</a></li>
+							<li class="f-list__item">
+								<a href="">Записаться на диагностику</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__list">
+						<div class="f-list-title">Наш сервис и автосервис</div>
+						<ul class="f-list">
+							<li class="f-list__item">
+								<img src="./images/phone-number.svg" alt="Номер телефона" />
+								<a href="#">+7 999 999-99-99</a>
+							</li>
+							<li class="f-list__item">
+								<img src="./images/mail.svg" alt="Номер телефона" />
+								<a href="#">service@mail.ru</a>
+							</li>
+							<li class="f-list__item">
+								<img src="./images/map-pin.svg" alt="Номер телефона" />
+								<a href="#">г. Екатеринбург, ул. Проезжая, 9а лит Ф</a>
+							</li>
+							<li class="f-list__item">
+								<img src="./images/clock.svg" alt="Номер телефона" />
+								<div href="#">Ежедневно: 09:00–21:00</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
